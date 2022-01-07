@@ -1,0 +1,115 @@
+.section-title
+{
+ margin: 0;
+  position: absolute;
+  top: 80px;
+
+}
+@media only screen and (max-width: 600px) {
+    .section-title {
+        top: 40px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .section {
+        top: 50px;
+    }
+  }
+
+.guest-info
+{
+    line-height: 4;
+}
+@media only screen and (max-width: 600px) {
+    .guest-info {
+        line-height: 3;
+        font-size: 12px;
+    }
+  }
+
+.edit-btn,.save-btn
+{
+    
+    height: 60px;
+    
+    border: 0;
+    color: white;
+    margin-top: 20px;
+}
+
+.col-name
+{
+    font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+    .col-name {
+        font-size: 12px;
+    }
+  }
+
+#contact-form
+{
+    margin-top: 20px;
+}
+.sign-form
+{
+    margin-top: 40px;
+}
+@media only screen and (max-width: 600px) {
+    .sign-form {
+        margin-top: 330px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+  }
+
+
+.form-title
+{
+margin-top: -30px;
+}
+.form-control
+{
+    text-transform: capitalize;
+    border: 0;
+}
+select
+{
+    background-color: #f7f8f9;
+    color: black;
+    text-transform: capitalize;
+
+}
+.dropdown-toggle
+{
+    background-color: #f7f8f9;
+    color: black;
+    text-transform: capitalize;
+    border: 0;
+}
+.dropdown-toggle:hover
+{
+    background-color: #f7f8f9;
+}
+
+.btn-info:not(:disabled):not(.disabled).active, .btn-info:not(:disabled):not(.disabled):active, .show>.btn-info.dropdown-toggle
+{
+    background-color: #f7f8f9;
+    border: 0;
+    background:#f7f8f9 ;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option
+{
+    color: black;
+    text-transform: capitalize;
+}
+.btn:hover, .btn:focus, .btn:active
+{
+    background:#f7f8f9 ;
+    border: 0;
+}
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn)
+{
+   margin-bottom: 30px;
+}

@@ -1,0 +1,176 @@
+*
+{
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-family: 'open sans';
+}
+ h2
+{
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-left: 50px;
+
+}
+ h6
+{
+    color: #e3e0a3;
+   letter-spacing: 0;
+   margin-left: 50px;
+}
+@media only screen and (max-width: 600px) {
+    h2 {
+        text-align: center;
+        margin-left: 0;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    h6 {
+        text-align: center;
+        margin-left: 0;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .section-title h1 {
+         text-align: left;
+         margin-left: 0;
+         left: 0;
+     }
+   }
+.date-info
+{
+    margin-top: 30px;
+}
+.date-info tr
+{
+   
+    color: black;
+}
+.date-info td
+{
+    padding-right: 40px;
+}
+.room-add-info
+{
+    margin-top: 10px;
+    
+}
+.room-add-info td
+{
+    padding-right: 40px;
+}
+.booking-details
+{
+    margin-top: -100px;
+}
+.booking-details .row
+{
+    border: 1px solid rgb(230, 230, 230);
+    margin: 40px;
+    padding: 20px;
+   
+}
+@media only screen and (max-width: 600px) {
+    .booking-details .row {
+        
+         margin: 0;
+         
+         
+     }
+   }
+
+
+.booking-details .date-info
+{
+    margin-top: 10px;
+    
+    padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .booking-details .date-info {
+        
+         margin-left: 0;
+         
+     }
+   }
+
+   .book-info
+   {
+       margin-top: 10px;
+       color: black;
+       padding: 10px;
+   }
+   .book-info td
+   {
+       padding-right: 40px;
+   }
+
+.bill-info
+{
+    margin-top: 10px;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    
+}
+.bill-info td
+{
+    padding-right: 40px;
+}
+.bill-info .price-tr span
+{
+    font-size: 30px;
+    font-weight: 500;
+}
+.guest-info
+{
+    margin-top: 10px;
+    color: black;
+    padding: 10px;
+    
+    
+}
+.guest-info td
+{
+    padding-right: 40px;
+}
+
+
+
+   .guest-details
+   {
+       margin-top: -100px;
+   }
+   .guest-details .row
+   {
+       border: 1px solid rgb(230, 230, 230);
+       margin: 40px;
+       padding: 20px;
+      
+   }
+   @media only screen and (max-width: 600px) {
+    .guest-details .row {
+        
+         margin: 0;
+         
+     }
+   }
+
+.text-p
+{
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+}
+.proceed-checkout-btn
+{
+    width: 400px;
+    height: 60px;
+    background-color: #e3e0a3;
+    border: 0;
+    color: white;
+    margin-top: 0px;
+}

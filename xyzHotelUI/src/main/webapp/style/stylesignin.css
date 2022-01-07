@@ -1,0 +1,154 @@
+header.transparent-header
+{
+    top: 0;  
+}
+
+.nav-logo
+{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: -30px;
+}
+
+/*header.horizontal-header.transparent-header .main-menu .menu .menu-btn .btn
+{
+    background-color:#e3e0a3 ;
+    color: white;
+    font-weight: 500;
+} */
+
+header.horizontal-header.transparent-header .main-menu .menu .menu-item a
+{
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: black;
+    
+}
+
+header.horizontal-header .main-menu .menu .menu-item a, header.horizontal-header.scroll-header .main-menu .menu .menu-item a
+{
+    color: black;
+}
+/* header.horizontal-header .main-menu .menu .menu-item a, header.horizontal-header.scroll-header .main-menu .menu .menu-btn .btn
+{
+    color: black;
+} */
+
+
+
+.mm-menu
+{
+    z-index: 40;
+}
+.section-title h4
+{
+padding-top: 80px;
+}
+.section-title p
+{
+    margin-bottom: -150px;
+}
+
+
+
+.text h6
+{
+    color: rgb(199, 174, 64) ;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 2;
+    z-index: 10;
+    margin-top: -30px;
+    
+}
+.sign-up-btn
+{
+width: 150px;
+height: 40px;
+color: rgb(199, 174, 64) ;
+background-color: transparent;
+border-radius: 0px;
+text-align: center;
+border: 2px solid rgb(199, 174, 64) ;
+letter-spacing: 2px;
+font-weight: 400;
+text-transform: uppercase;
+position: relative;
+padding-top: 4px;
+margin-top: 20px;
+z-index: 0;
+}
+.sign-up-btn a
+{
+    color: rgb(199, 174, 64) ;
+    text-align: center;
+    
+}
+.sign-up-btn:hover
+{
+background-color:rgb(199, 174, 64) ;
+color: white;
+}
+.sign-up-btn:hover .link
+{
+    color: white;
+}
+.link:hover
+{
+    color: white;
+}
+.sign-form
+{
+    margin-top: 80px;
+    padding: 30px;
+    border-radius: 10px;
+    z-index: 0;
+    box-shadow: 2px 2px 10px rgba(179, 179, 179, 0.199);
+
+}
+.form-title
+{
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 2px;
+    line-height: 2;
+    text-transform: uppercase;
+    z-index: 0;
+}
+.form-group
+{
+    z-index: 0;
+}
+.bg-img
+{
+    background: url(../images/b4.png);
+    opacity: 15%;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 50px;
+    left: -300px;
+    background-repeat: no-repeat;
+    z-index:0;
+}
+@media only screen and (max-width: 600px) {
+    .bg-img {
+        width: 300px;
+        height: 300px;
+        top: 80px;
+        left: -150px;
+    }
+  }
+.full
+{
+    padding-bottom: 200px;
+}
+#contact-form
+{
+    z-index: 0;
+}
